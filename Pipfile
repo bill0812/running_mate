@@ -1,0 +1,40 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pylint = "*"
+django = "==2.0.3"
+django-sslserver = "*"
+pyrebase = "*"
+celery-with-redis = "*"
+lock = "*"
+rabbitmq = "*"
+pillow = "==5.0.0"
+
+[dev-packages]
+pylint = "*"
+django = "==2.0.3"
+django-sslserver = "*"
+pyrebase = "*"
+requirements-parser = "*"
+matplotlib = "*"
+googlemaps = "*"
+geopy = "*"
+pandas = "*"
+sklearn = "*"
+shapely = "*"
+scipy = "*"
+celery-with-redis = "*"
+celery = "*"
+flower = "*"
+asgi-rabbitmq = "*"
+dwebsocket = "*"
+packaging = "*"
+django-paypal = "*"
+qrcode = "*"
+image = "*"
+
+[requires]
+python_version = "3.6"
