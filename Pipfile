@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 pylint = "*"
-django = "==2.0.3"
+django = "==2.2.10"
 django-sslserver = "*"
 pyrebase = "*"
 celery-with-redis = "*"
@@ -15,7 +15,7 @@ pillow = "==5.0.0"
 
 [dev-packages]
 pylint = "*"
-django = "==2.0.3"
+django = "==2.2.10"
 django-sslserver = "*"
 pyrebase = "*"
 requirements-parser = "*"
